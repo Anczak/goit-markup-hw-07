@@ -1,0 +1,102 @@
+@use "../utils/_vars";
+address {
+  margin-top: 20px;
+}
+.logo {
+  > span {
+    color: vars.$brand-black;
+  }
+}
+footer {
+  .logo {
+    > span {
+      color: vars.$white;
+    }
+  }
+}
+.address-list {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  font-style: normal;
+  color: vars.$white;
+}
+.address-element {
+  line-height: 24px;
+  font-size: 14px;
+}
+.container-footer {
+  display: flex;
+  padding: 60px 0;
+  justify-content: space-between;
+}
+.section-footer {
+  background-color: vars.$brand-darkgray;
+  display: flex;
+  justify-content: center;
+}
+.footer-header {
+  color: vars.$white;
+  text-transform: uppercase;
+  font-weight: vars.$font-700;
+  font-size: 14px;
+  margin-top: 12px;
+  margin-bottom: 20px;
+}
+.footer-socials-list {
+  display: flex;
+  gap: 10px;
+}
+.newsletter-input {
+  width: calc(356px - 32px);
+  caret-color: rgba(255, 255, 255, 0.6);
+  color: rgba(255, 255, 255, 0.6);
+  outline: none;
+  padding: 15px 16px;
+  background-color: vars.$brand-darkgray;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  &::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+  }
+}
+.footer-newsletter {
+  display: flex;
+  gap: 12px;
+}
+.newsletter-btn {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  fill: vars.$white;
+  color: vars.$white;
+  text-align: center;
+  letter-spacing: 0.06em;
+  font-weight: vars.$font-700;
+  font-family: vars.$font-primary;
+  font-size: 16px;
+  line-height: 30px;
+  border: none;
+  padding: 10px 28px 10px 42px;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  cursor: pointer;
+}
+.footer-socials-link {
+  max-width: 44px;
+  max-height: 44px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+  transition: 250ms background vars.$trasnition-master;
+  &:hover {
+    background: vars.$brand-blue;
+  }
+}
+.footer-socials-svg {
+  max-width: 20px;
+  max-height: 20px;
+  padding: 12px;
+  fill: vars.$white;
+}

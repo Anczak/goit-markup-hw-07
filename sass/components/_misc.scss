@@ -1,0 +1,21 @@
+@use "../utils/_vars";
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+body {
+  letter-spacing: 0.03em;
+  font-family: vars.$font-primary;
+}
+ul {
+  list-style: none;
+}
+.section {
+  padding: 94px 0;
+}
+.container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1200px;
+}

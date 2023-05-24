@@ -1,0 +1,26 @@
+@use "../utils/_vars";
+.our-customers-list {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.customer-svg {
+  max-width: 106px;
+  max-height: 60px;
+  border: vars.$svg-gray 1px solid;
+  border-radius: 4px;
+  padding: 16px 32px;
+  fill: vars.$svg-gray;
+  transition: 250ms fill vars.$trasnition-master;
+  &:hover {
+    fill: vars.$brand-blue;
+    border-color: vars.$brand-blue;
+  }
+}
+.our-customers-header {
+  font-weight: vars.$font-700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  margin-bottom: 50px;
+}
