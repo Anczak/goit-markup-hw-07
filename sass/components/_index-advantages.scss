@@ -1,10 +1,15 @@
 @use "../utils/_vars";
+.main-page-advantages {
+  padding-bottom: 0;
+  display: flex;
+  justify-content: center;
+}
 .solution-advantages {
   display: flex;
   justify-content: center;
   gap: 30px;
 }
-.advantage-svg {
+.advantage-icon {
   max-width: 270px;
   max-height: 70px;
   padding: 25px 0;
@@ -24,9 +29,4 @@
   color: vars.$brand-gray;
   font-size: 14px;
   line-height: 24px;
-}
-.main-page-advantages {
-  display: flex;
-  justify-content: center;
-  padding-bottom: 0;
 }
