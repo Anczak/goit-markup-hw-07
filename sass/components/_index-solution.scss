@@ -1,12 +1,12 @@
-@use "../utils/_vars";
-.container-solution {
+@use "../utils/vars";
+.solution__container {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   padding: 133px 0;
 }
-.order-solution {
+.solution {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -19,7 +19,7 @@
     url("./../images/main_page_bg.jpg");
   background-size: cover;
 }
-.order-header {
+.solution__header {
   margin-bottom: 30px;
   max-width: 696px;
   text-align: center;
@@ -29,7 +29,7 @@
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
-.order-button {
+.solution__button {
   font-family: vars.$font-primary;
   padding: 10px 41px 10px 42px;
   border-radius: 4px;

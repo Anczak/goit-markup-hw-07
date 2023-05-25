@@ -1,5 +1,6 @@
-@use "./utils/_vars";
-@use "./utils/_misc";
+@use "./utils/vars";
+@use "./utils/_reset";
+@use "./components/_misc";
 @use "./components/_index-advantages";
 @use "./components/_index-customers";
 @use "./components/_index-form";

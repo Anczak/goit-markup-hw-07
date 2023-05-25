@@ -1,28 +1,28 @@
-@use "../utils/_vars";
-.form-flex {
+@use "../utils/vars";
+.form__flex {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 10px;
 }
-.form-label {
+.form__label {
   font-weight: 400;
   font-size: 12px;
   line-height: 14px;
   letter-spacing: 0.01em;
   color: vars.$brand-gray;
-  &-container {
+  &__container {
     display: flex;
     flex-direction: column;
     gap: 4px;
   }
 }
-.form-input {
+.form__input {
   margin-left: 12px;
   outline: none;
   border: none;
   width: calc(100% - 36px);
-  &-textarea {
+  &__textarea {
     outline: none;
     resize: none;
     width: 416px;
@@ -37,7 +37,7 @@
       letter-spacing: 0.01em;
     }
   }
-  &-box {
+  &__box {
     padding: 11px 12px 11px 12px;
     display: flex;
     align-items: center;
@@ -53,7 +53,7 @@
     }
   }
 }
-.form-privacy-agreement {
+.form__privacy-agreement {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -84,7 +84,7 @@
     }
   }
 }
-.form-submit {
+.form__submit {
   color: white;
   border: none;
   padding: 10px 76px;

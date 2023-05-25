@@ -1,16 +1,16 @@
-@use "../utils/_vars";
-.our-work-section {
+@use "../utils/vars";
+.our-work__section {
   display: flex;
   justify-content: center;
 }
-.our-work-header {
+.our-work__header {
   text-align: center;
   margin-bottom: 50px;
   font-weight: vars.$font-700;
   font-size: 36px;
   line-height: 42px;
 }
-.our-work-list {
+.our-work__list {
   display: flex;
   justify-content: center;
   gap: 30px;

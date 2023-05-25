@@ -1,17 +1,17 @@
-@use "../utils/_vars";
-.our-projects {
+@use "../utils/vars";
+.projects {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.projects-list {
+.projects__list {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   margin-top: 50px;
   gap: 30px;
 }
-.project-card-overlay {
+.project__card-overlay {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -20,22 +20,22 @@
   transform: translateY(100%);
   transition: transform 250ms vars.$trasnition-master;
 }
-.project-card {
+.project__card {
   border: vars.$portfolio-border-gray solid 1px;
   transition: box-shadow 250ms vars.$trasnition-master;
   &:focus,
   &:hover {
-    .project-card-overlay {
+    .project__card-overlay {
       transform: translateY(0%);
     }
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
       1px 4px 6px rgba(0, 0, 0, 0.16);
   }
-  &-container {
+  &__container {
     position: relative;
     overflow: hidden;
   }
-  &-header {
+  &__header {
     color: vars.$brand-black;
     margin: 20px 0 0 24px;
     font-size: 18px;
@@ -43,7 +43,7 @@
     line-height: 36px;
     letter-spacing: 0.06em;
   }
-  &-overlay-text {
+  &__overlay-text {
     height: 100%;
     padding: 49px 45px 49px 24px;
     background-color: rgba(33, 150, 243, 0.9);
@@ -53,7 +53,7 @@
     line-height: 26px;
     color: vars.$white;
   }
-  &-desc {
+  &__desc {
     color: vars.$brand-gray;
     margin: 4px 0 20px 24px;
     line-height: 30px;

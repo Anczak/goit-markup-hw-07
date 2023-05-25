@@ -1,5 +1,5 @@
-@use "../utils/_vars";
-.container-header {
+@use "../utils/vars";
+.header {
   display: flex;
   justify-content: space-between;
 }
@@ -17,24 +17,24 @@ header {
     margin-right: 93px;
   }
 }
-.section-header-nav {
+.header__nav {
   display: flex;
 }
-.section-header-list {
+.header__list {
   font-weight: 500;
   font-size: 14px;
   display: flex;
   align-items: center;
   gap: 46px;
 }
-.section-header-contact-list {
+.header__contact-list {
   font-weight: 500;
   font-size: 14px;
   display: flex;
   align-items: center;
   gap: 50px;
 }
-.contact-list-element {
+.contact__list__element {
   display: flex;
   gap: 10px;
   align-items: center;

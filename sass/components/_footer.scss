@@ -1,4 +1,4 @@
-@use "../utils/_vars";
+@use "../utils/vars";
 address {
   margin-top: 20px;
 }
@@ -14,28 +14,28 @@ footer {
     }
   }
 }
-.address-list {
+.address__list {
   display: flex;
   flex-direction: column;
   gap: 9px;
   font-style: normal;
   color: vars.$white;
 }
-.address-element {
+.address__element {
   line-height: 24px;
   font-size: 14px;
 }
-.container-footer {
+.footer__container {
   display: flex;
   padding: 60px 0;
   justify-content: space-between;
 }
-.section-footer {
+.footer__section {
   background-color: vars.$brand-darkgray;
   display: flex;
   justify-content: center;
 }
-.footer-header {
+.footer__header {
   color: vars.$white;
   text-transform: uppercase;
   font-weight: vars.$font-700;
@@ -43,7 +43,7 @@ footer {
   margin-top: 12px;
   margin-bottom: 20px;
 }
-.footer-socials-list {
+.footer__socials__list {
   display: flex;
   gap: 10px;
 }
@@ -61,7 +61,7 @@ footer {
     color: rgba(255, 255, 255, 0.6);
   }
 }
-.footer-newsletter {
+.footer__newsletter {
   display: flex;
   gap: 12px;
 }
@@ -84,7 +84,7 @@ footer {
   border-radius: 4px;
   cursor: pointer;
 }
-.footer-socials-link {
+.footer__socials__link {
   max-width: 44px;
   max-height: 44px;
   border-radius: 50%;
@@ -94,7 +94,7 @@ footer {
     background: vars.$brand-blue;
   }
 }
-.footer-socials-icon {
+.footer__socials__icon {
   max-width: 20px;
   max-height: 20px;
   padding: 12px;

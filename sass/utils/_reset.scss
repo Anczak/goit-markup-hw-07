@@ -1,4 +1,4 @@
-@use "../utils/_vars";
+@use "../utils/vars";
 * {
   margin: 0;
   padding: 0;
@@ -10,12 +10,4 @@ body {
 }
 ul {
   list-style: none;
-}
-.section {
-  padding: 94px 0;
-}
-.container {
-  margin: 0 auto;
-  width: 100%;
-  max-width: 1200px;
 }
