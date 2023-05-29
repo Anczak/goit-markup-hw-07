@@ -1,7 +1,4 @@
 @use "../utils/vars";
-address {
-  margin-top: 20px;
-}
 .logo {
   > span {
     color: vars.$brand-black;
@@ -13,17 +10,6 @@ footer {
       color: vars.$white;
     }
   }
-}
-.address__list {
-  display: flex;
-  flex-direction: column;
-  gap: 9px;
-  font-style: normal;
-  color: vars.$white;
-}
-.address__element {
-  line-height: 24px;
-  font-size: 14px;
 }
 .footer__container {
   display: flex;
@@ -43,7 +29,7 @@ footer {
   margin-top: 12px;
   margin-bottom: 20px;
 }
-.footer__socials__list {
+.footer-socials__list {
   display: flex;
   gap: 10px;
 }
@@ -84,7 +70,7 @@ footer {
   border-radius: 4px;
   cursor: pointer;
 }
-.footer__socials__link {
+.footer-socials__link {
   max-width: 44px;
   max-height: 44px;
   border-radius: 50%;
@@ -94,7 +80,7 @@ footer {
     background: vars.$brand-blue;
   }
 }
-.footer__socials__icon {
+.footer-socials__icon {
   max-width: 20px;
   max-height: 20px;
   padding: 12px;

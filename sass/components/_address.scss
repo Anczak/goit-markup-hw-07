@@ -1,0 +1,15 @@
+@use "../utils/vars";
+address {
+  margin-top: 20px;
+}
+.address__list {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  font-style: normal;
+  color: vars.$white;
+}
+.address__element {
+  line-height: 24px;
+  font-size: 14px;
+}

@@ -1,10 +1,10 @@
 @use "../utils/vars";
-.customers__list {
+.customers-list {
   display: flex;
   justify-content: center;
   gap: 30px;
 }
-.customers__icon {
+.customers-icon {
   max-width: 106px;
   max-height: 60px;
   border: vars.$svg-gray 1px solid;
@@ -17,7 +17,7 @@
     border-color: vars.$brand-blue;
   }
 }
-.customers__header {
+.customers-header {
   font-weight: vars.$font-700;
   font-size: 36px;
   line-height: 42px;
